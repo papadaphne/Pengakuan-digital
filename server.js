@@ -8,8 +8,8 @@ app.use(bodyParser.json());
 
 const core = new midtransClient.CoreApi({
   isProduction: true,
-  serverKey: "Mid-server-REPLACE_ME",
-  clientKey: "Mid-client-REPLACE_ME"
+  serverKey: "Mid-server-3d3BdRMmDOT8ogRXUewQcGRm",
+  clientKey: "Mid-client-rL98w64qMaijEtYy"
 });
 
 app.post("/create-payment", async (req, res) => {

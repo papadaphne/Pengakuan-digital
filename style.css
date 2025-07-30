@@ -1,0 +1,24 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #292e49, #536976);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.hero {
+  text-align: center;
+}
+button {
+  background-color: #ffad33;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #222;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}

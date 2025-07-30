@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pengakuan Digital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <h1>Pengakuan Digital</h1>
+    <p>Mendengar yang tak bisa diucap</p>
+    <button id="start">Mulai Pengakuan</<button id="start" class="btn">Mulai Pengakuan</button>
+<script>
+  document.getElementById('start').addEventListener('click', async () => {
+    const resp = await fetch('https://https://pengakuan-digital-1.onrender.com/create-payment', { method: 'POST' });
+    const data = await resp.json();
+    window.location.href = data.redirect_url;
+  });
+</script>
